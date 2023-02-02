@@ -395,31 +395,13 @@ if __name__ == '__main__':
 <br>
 <figure>
   <img title="Connection Failed" alt="Connection Failed" src="/images/hiveconnectionfailed.jpg">
-  <caption> Figure 15: Connection Failed</caption> 
+  <caption> Figure 15: Connection Failed </caption> 
 </figure>
 <br>
 
 <b>At this point, I could not connect to the mariadb account that hive uses. </b>
 
-## Data Processing with  
-
-
-## Challenges
-I have faced several issues while working on this project. The major ones are:
-* Data nodes failure
-The data nodes which were app failed after I reloaded my vagrant. It took me a while to understand why they the data nodes were not showing. My mistake was that, I was using the same configuration for master and worker nodes. 
-* Database Connection Failure
-By now, I could not authenticate to mysql database using username and password. 
-
-## Summary
-
-The journey to create a hadoop infrastructure with IaC (Infrastructure as a Code) approach involved learning process of several technologies. Vagrantfile is created with <b>ruby</b> language. The provisions were done with <b>shell scripts</b>. I have used git for version control. 
-
-I set out to create a Hadoop infrastructure with three nodes and used Hive for data processing, and also created a Flask app for a picture archive. However, during the project, I encountered issues with the  MySQL authentication failing, which disrupted my progress. Overall, it has been an enjoyable journey.
-
-
 ## References
-
 [Hadoop Ecosystem Components](https://www.projectpro.io/article/hadoop-ecosystem-components-and-its-architecture/114)
 [Components of Hadoop](https://www.simplilearn.com/tutorials/hadoop-tutorial/what-is-hadoop)
 [Hadoop Configuration Files](https://data-flair.training/forums/topic/what-are-the-configuration-files-in-hadoop/#:~:text=Configuration%20Files%20are%20the%20files,Daemon%20(bin%2Fhadoop))
