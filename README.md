@@ -1,5 +1,3 @@
-# ifbd-ca3-Dawitkebedeg
-# ifbd-ca3-Dawitkebedeg created by GitHub Classroom
 This infrastructure as a code project creates hadoop cluster of three nodes. 
 On top is yarn resource manager. 
 Hive is used to manage databases.
